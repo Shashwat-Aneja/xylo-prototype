@@ -1,0 +1,17 @@
+{
+  "name": "xylo-accounting-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.3"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.10",
+    "typescript": "^5.3.3"
+  }
+}
